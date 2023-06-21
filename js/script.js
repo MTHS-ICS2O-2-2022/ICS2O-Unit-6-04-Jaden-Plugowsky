@@ -6,15 +6,21 @@
 
 "use strict"
 
-function buttonOneClicked() {
-  //This function does XXXX
-  //Input through Textfields
-  const example = parseFloat(document.getElementById("example").value)
+window.onload = function () {
+  // This function calculates the volume of a sphere using a given radius
 
-  //Process
-  const answer = example
+  const params = new URLSearchParams(document.location.search)
 
-  //Output
-  document.getElementById("answer").innerHTML =
-    "The answer is: " + answer.toFixed(2)
+  // Input through Textfields or Query Strings
+  const radius = params.get("radius")
+  const PI = Math.PI
+
+  // Process
+  const answer = (4 / 3) * PI * radius ** 3
+
+  // Output
+  document.getElementById("radius").innerHTML =
+    "The Radius you inputted (in cm) is: " + radius + "cm"
+  document.getElementById("volume").innerHTML =
+    "The Volume of the Sphere (in cm³) is: " + answer.toFixed(2) + "cm³"
 }

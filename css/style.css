@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: rgb(95 189 95);
 }
 
 a {
@@ -22,14 +22,14 @@ a {
 
 .right-image {
   height: auto;
-  width: 450px;
+  width: 800px;
   float: right;
-  margin-right: 150px;
+  margin-right: -270px;
 }
 
 .mdl-content {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 .mdl-layout__content {
@@ -46,7 +46,7 @@ a {
 }
 
 .page-content-answer {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #button-one {
