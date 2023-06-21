@@ -10,21 +10,14 @@
   opacity: 0.001;
 }
 
-body {
-  background-color: rgb(95 189 95);
-}
-
 a {
   font-size: 30px;
   background-color: white;
   padding-left: 20px;
 }
 
-.right-image {
-  height: auto;
-  width: 800px;
-  float: right;
-  margin-right: -270px;
+.mdl-layout__header-row {
+  justify-content: center;
 }
 
 .mdl-content {
@@ -32,28 +25,52 @@ a {
   line-height: 35px;
 }
 
-.mdl-layout__content {
+#body-page1 {
+  background-color: rgb(95 189 95);
+}
+
+#body-page2 {
+  background-color: lightgreen;
+}
+
+#mdl-layout-title-page1 {
+  color: white;
+  font-size: 50px;
+}
+
+#mdl-layout-title-page2 {
+  color: black;
+  font-size: 50px;
+}
+
+#right-image-page1 {
+  height: auto;
+  width: 800px;
+  float: right;
+  margin-right: -270px;
+}
+
+#right-image-page2 {
+  height: auto;
+  width: 600px;
+  float: right;
+  margin-right: -60px;
+}
+
+#mdl-layout__content-page1 {
   margin-left: 20px;
   color: white;
 }
 
-.mdl-layout__header-row {
-  justify-content: center;
+#mdl-layout__content-page2 {
+  margin-left: 20px;
+  color: black;
 }
 
-.mdl-layout-title {
-  color: white;
-}
-
-.page-content-answer {
+#page-content-answer-page1 {
   font-size: 25px;
 }
 
-#button-one {
-  margin-left: 60px;
-  margin-top: 10px;
-}
-
-#header-fix {
-  font-size: 50px;
+#page-content-answer-page2 {
+  font-size: 25px; /* Was 15px in the original code. */
 }

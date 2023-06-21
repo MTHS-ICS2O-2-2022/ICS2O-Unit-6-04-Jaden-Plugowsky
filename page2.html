@@ -14,49 +14,55 @@
     <!-- Change colours here at https://getmdl.io/customize/index.html -->
     <link
       rel="stylesheet"
-      href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css"
+      href="https://code.getmdl.io/1.3.0/material.lime-cyan.min.css"
     />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <title>Volume of a Sphere</title>
+    <title>Area of a Triangle</title>
   </head>
-  <body onload="pageOneLoaded()" id="body-page1">
+  <body onload="pageTwoLoaded()" id="body-page2">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
     <!-- Page content is below this div -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span id="mdl-layout-title-page1">Volume of a Sphere</span>
+          <span id="mdl-layout-title-page2">Area Calculator</span>
         </div>
       </header>
-      <main id="mdl-layout__content-page1">
+      <main id="mdl-layout__content-page2">
         <!-- Put non-header content HERE -->
         <br />
-        <div id="right-image-page1">
-          <img src="./images/sphere.svg" alt="volume of a sphere image" />
+        <div>
+          <img
+            src="./images/triangle.png"
+            alt="triangle image"
+            id="right-image-page2"
+          />
         </div>
         <div class="mdl-content">
-          Equation: (4 / 3) * π * radius³
+          Equation: Base * Height / 2
           <br />
-          Change the link to input a radius.
+          Change the link to input a base and height.
           <br />
-          Example: /ICS2O-Unit-6-04-Jaden-Plugowsky/index.html?radius=5
+          Example: /ICS2O-Unit-6-04-Jaden-Plugowsky/page2.html?base=12&height=5
         </div>
         <br />
         <br />
         <!-- Answer to be replaced using JS -->
-        <div id="page-content-answer-page1">
-          <div id="radius">Not Loaded</div>
+        <div id="page-content-answer-page2">
+          <div id="base">Not Loaded</div>
           <br />
-          <div id="volume">Not Loaded</div>
+          <div id="height">Not Loaded</div>
+          <br />
+          <div id="area">Not Loaded</div>
         </div>
         <br />
         <br />
         <br />
-        <a href="./page2.html">Page 2</a>
+        <a href="./index.html">Page 2</a>
       </main>
     </div>
   </body>
