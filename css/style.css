@@ -12,7 +12,6 @@
 
 a {
   font-size: 30px;
-  background-color: white;
   padding-left: 20px;
 }
 
@@ -57,12 +56,12 @@ a {
   margin-right: -60px;
 }
 
-#mdl-layout--content-page1 {
+#mdl-layout-content-page1 {
   margin-left: 20px;
   color: white;
 }
 
-#mdl-layout--content-page2 {
+#mdl-layout-content-page2 {
   margin-left: 20px;
   color: black;
 }
